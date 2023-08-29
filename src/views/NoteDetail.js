@@ -17,7 +17,7 @@ function NoteDetail() {
 
   useEffect(() => {
     if (authTokens) {
-      axiosInstance.get(`http://localhost:8000/api/notes/${id}/`).then((response) => {
+      axiosInstance.get(`http://django:8000/api/notes/${id}/`).then((response) => {
         setNote(response.data);
       }).catch((error) => {
         console.error(error);

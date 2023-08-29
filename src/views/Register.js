@@ -24,7 +24,7 @@ const Register = () => {
     formDataToSend.append('cover_photo', formData.cover_photo);
 
     try {
-      const response = await fetch('http://127.0.0.1:8000/api/register/', {
+      const response = await fetch('http://django:8000/api/register/', {
         method: 'POST',
         body: formDataToSend,
       });
