@@ -15,7 +15,7 @@ const GetNotes = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get("http://django:8000/api/notes");
+        const res = await axios.get("/api/notes");
         setNotes(res.data);
       } catch (error) {
         console.error(error);

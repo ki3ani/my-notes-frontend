@@ -17,7 +17,7 @@ function NoteDetail() {
 
   useEffect(() => {
     if (authTokens) {
-      axiosInstance.get(`http://django:8000/api/notes/${id}/`).then((response) => {
+      axiosInstance.get(`/api/notes/${id}/`).then((response) => {
         setNote(response.data);
       }).catch((error) => {
         console.error(error);
@@ -28,7 +28,7 @@ function NoteDetail() {
   const handleUpdate = async (formData) => {
     try {
       const response = await axiosInstance.patch(
-        `http://localhost:8000/api/notes/${id}/`,
+        `/api/notes/${id}/`,
         formData
       );
       setNote(response.data);
@@ -40,7 +40,7 @@ function NoteDetail() {
 
   const handleDelete = async () => {
     try {
-      await axiosInstance.delete(`http://localhost:8000/api/notes/${id}/delete`);
+      await axiosInstance.delete(`/api/notes/${id}/delete`);
       history.push("/notes");
     } catch (error) {
       console.error(error);
