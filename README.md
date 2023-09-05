@@ -32,18 +32,18 @@ My Notes App is a full-stack web application developed using React, Django, Post
   - React
   - React Router
   - Axios for API requests
-  - [Add any other relevant frontend libraries or tools]
+
 
 - **Backend**:
   - Django
   - Django REST framework
   - PostgreSQL database
-  - [Add any other relevant backend libraries or tools]
+
 
 - **Deployment**:
   - Docker
   - Docker Compose
-  - [Add any other relevant deployment tools]
+  
 
 ## Setup
 
