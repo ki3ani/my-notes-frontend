@@ -66,7 +66,8 @@ My Notes App is a full-stack web application developed using React, Django, Post
 
 ## API Documentation
 
-- Detailed API documentation can be found in the [API.md](docs/API.md) file. This documentation provides information about the available API endpoints, authentication, request and response formats, and error handling.
+- Detailed API documentation can be found in the [API Documentation](https://github.com/ki3ani/my-notes-backend/blob/main/README.md)
+ file. This documentation provides information about the available API endpoints, authentication, request and response formats, and error handling.
 
 ## Frontend Documentation
 
