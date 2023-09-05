@@ -77,4 +77,3 @@ This section provides an overview of the frontend structure, technologies used, 
 - **React**: My Notes App's frontend is built using the React JavaScript library, providing a dynamic and responsive user interface.
 - **React Router**: React Router is used for handling client-side routing, allowing for a single-page application experience.
 - **Axios**: Axios is utilized for making HTTP requests to interact with the backend API.
-- [Add any other relevant frontend libraries or tools]
