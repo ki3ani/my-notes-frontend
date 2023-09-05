@@ -82,7 +82,7 @@ This section provides an overview of the frontend structure, technologies used, 
 
 ### Login Page
 
-![Login Page](notes-screenshot/login_shiv.png)
+![Login Page](notes-screenshots/login_shiv.png)
 
 ### Register Page
 
