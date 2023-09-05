@@ -1,6 +1,6 @@
 # My Notes App
 
-![App Screenshot](notes-screenshot/welcome_page.png)
+![App Screenshot](notes-screenshots/welcome_page.png)
 
 ## Table of Contents
 - [Introduction](#introduction)
