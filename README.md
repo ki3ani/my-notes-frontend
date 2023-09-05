@@ -52,3 +52,29 @@ My Notes App is a full-stack web application developed using React, Django, Post
    ```bash
    git clone https://github.com/your-username/my-notes-app.git
    cd my-notes-app
+
+## Access the App
+
+- Open your web browser and go to http://localhost:3000.
+
+## Usage
+
+- Register a new user or log in with an existing account.
+- Navigate to the dashboard to create, view, update, and delete notes.
+- Visit your user profile page to see your personal notes and profile information.
+- Log out when you're finished.
+
+## API Documentation
+
+- Detailed API documentation can be found in the [API.md](docs/API.md) file. This documentation provides information about the available API endpoints, authentication, request and response formats, and error handling.
+
+## Frontend Documentation
+
+This section provides an overview of the frontend structure, technologies used, and how to run and build the frontend of My Notes App.
+
+### Technologies Used
+
+- **React**: My Notes App's frontend is built using the React JavaScript library, providing a dynamic and responsive user interface.
+- **React Router**: React Router is used for handling client-side routing, allowing for a single-page application experience.
+- **Axios**: Axios is utilized for making HTTP requests to interact with the backend API.
+- [Add any other relevant frontend libraries or tools]
